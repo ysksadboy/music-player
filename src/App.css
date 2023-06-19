@@ -2,23 +2,20 @@ body {
   background-color: #525252;
 }
 
-.component {
-  background-color: white;
+.App {
+  background-color: #525252;
   width: 25%;
   max-width: 600px;
   margin: 1em auto;
   padding-bottom: 2em;
-  border: 0.1px solid black;
-  border-radius: 10px;
-}
-
-.App {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 5px solid #27AE60;
+  border-radius: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
 }
 
 .musicCover {
-  border-radius: 10%;
+  border-radius: 100%;
 }
 
 .playButton {
