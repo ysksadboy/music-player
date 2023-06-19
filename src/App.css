@@ -1,5 +1,57 @@
+@media(max-width: 500px) {}
+
+body {
+  background-color: #525252;
+}
+
+.component {
+  background-color: white;
+  width: 25%;
+  max-width: 600px;
+  margin: 1em auto;
+  padding-bottom: 2em;
+  border: 0.1px solid black;
+  border-radius: 10px;
+}
+
 .App {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
+}
+
+.musicCover {
+  border-radius: 10%;
+}
+
+.playButton {
+  background: none;
+  border: none;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.subTitle {
+  margin-top: -1em;
+  color: #27AE60
+}
+
+.time {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  color: #27AE60;
+  font-size: smaller;
+}
+
+.timeline {
+  width: 80%;
+  background-color: #27ae60;
+}
+
+input[type="range"] {
+  background-color: #27ae60
 }
 
 .App-logo {
@@ -7,9 +59,9 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 900px) {
+  .App {
+    width: 50%;
   }
 }
 
@@ -32,6 +84,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
