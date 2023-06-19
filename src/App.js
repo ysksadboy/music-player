@@ -96,25 +96,25 @@ useEffect(() => {
       </div>
       <div>
         <button className="playButton">
-          <IconContext.Provider value={{ size: "3em", color: "#27AE60" }}>
+          <IconContext.Provider value={{ size: "3em", color: "#4267B2" }}>
             <BiSkipPrevious />
           </IconContext.Provider>
         </button>
         {! isPlaying ? (
           <button className='playButton' onClick={playingButton}>
-            <IconContext.Provider value={{ size: "3em", color: "#27AE60"}}>
+            <IconContext.Provider value={{ size: "3em", color: "#4267B2"}}>
               <AiFillPlayCircle />
             </IconContext.Provider>
           </button>
         ) : (
           <button className='playButton' onClick={playingButton}>
-            <IconContext.Provider value={{ size: "3em", color: "#27AE60" }}>
+            <IconContext.Provider value={{ size: "3em", color: "#4267B2" }}>
               <AiFillPauseCircle />
             </IconContext.Provider>
           </button>
           )}
         <button className='playButton'>
-          <IconContext.Provider value={{ size: "3em", color: "#27AE60"}}>
+          <IconContext.Provider value={{ size: "3em", color: "#4267B2"}}>
             <BiSkipNext />
           </IconContext.Provider>
 
