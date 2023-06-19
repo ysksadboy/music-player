@@ -9,14 +9,14 @@ body {
   margin: 1em auto;
   padding-bottom: 2em;
   border: 5px solid #000000;
-  border-radius: 100px;
+  border-radius: 20px;
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
 }
 
 .musicCover {
-  border-radius: 100%;
-  border: 5px solid #000000;
+  border-radius: 40px;
+  border: 2px solid #000000;
 }
 
 .playButton {
