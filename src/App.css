@@ -1,5 +1,5 @@
 body {
-  background-color: #525252;
+  background-color: #ffffff;
 }
 
 .App {
@@ -10,12 +10,13 @@ body {
   padding-bottom: 2em;
   border: 5px solid #000000;
   border-radius: 100px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Times New Roman', Times, serif;
   text-align: center;
 }
 
 .musicCover {
   border-radius: 100%;
+  border: 5px solid #000000;
 }
 
 .playButton {
